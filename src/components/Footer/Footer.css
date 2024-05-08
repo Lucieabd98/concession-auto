@@ -1,0 +1,22 @@
+footer {
+  background-color: #181c25;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer p {
+  font-size: 10px;
+  font-weight: 200;
+}
+
+@media (max-width: 768px) {
+  footer {
+    height: 90px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    align-items: flex-start;
+  }
+}

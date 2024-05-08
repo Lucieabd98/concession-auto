@@ -1,0 +1,30 @@
+.landing-page {
+  background-image: url(../../assets/imgs/background-image-alfa.jpeg);
+  height: calc(100vh - 140px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  max-width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 60px;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .landing-page {
+    background-image: url(../../assets/imgs/background-image-alfa.jpeg);
+    height: calc(100% - 80px - 90px);
+    background-size: cover;
+    background-position: 80%;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+}

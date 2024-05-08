@@ -1,0 +1,31 @@
+/* .form {
+  padding: 30px;
+} */
+
+.success-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.confirmation {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.thanks {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}

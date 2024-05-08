@@ -1,0 +1,17 @@
+button {
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+  font-weight: 300;
+  padding: 13px 30px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+button:hover {
+  opacity: 60%;
+}
